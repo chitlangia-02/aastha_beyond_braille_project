@@ -1,0 +1,39 @@
+.ocr{
+    padding: 100px;
+    color: white;
+    h1{
+        margin-bottom: 20px;
+    }
+    .input-container{
+        margin-bottom: 20px;
+        input{
+            display: block;
+        }
+        input::file-selector-button{
+            padding: 20px;
+            background-color: #111827;
+            color: white;
+            border: none;
+            font-size: 18px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .uploaded-img{
+            width: 200px;
+            height: auto;
+        }
+    }
+    .ocr-button{
+        margin-bottom: 20px;
+    }
+    .result{
+        color: white;
+        font-size: 16px;
+        .result-title{
+            display: block;
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+    }
+}
